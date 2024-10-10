@@ -3,11 +3,12 @@
 
 *{
     margin: 0;
+    font-family: 'Azeret Mono', monospace;
+    color: #0d1321;
 }
 
 /* Style for the navbar */
 .navbar {
-    background-color: aquamarine;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +17,7 @@
 }
 
 .nav-title {
-    color: rgb(13, 19, 33);
+    color: #0d1321;
     font-family: 'Azeret Mono', monospace;
     font-size: 28px;
     font-weight: 800;
@@ -26,11 +27,11 @@
 }
 
 .btn {
-    border: 2px solid black;
+    border: 2px solid #0d1321;
     border-radius: 8px;
     
     padding: 17px 24px 17px 24px;
-    color: black;
+    color: #0d1321;
 
     font-family: 'Azeret Mono', monospace;
     font-size: 20px;
@@ -48,4 +49,40 @@
 .hero-section{
     background: url("./images/Hero-bg.png");
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 20px;
+}
+.hero-icon{
+    margin: 32px;
+}
+
+.hero-icon img{
+    width: 200px;
+    height: 200px;
+}
+
+.hero-title{
+    color: #0d1321;
+    
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hero-subtitle{
+    color: #0d1321;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contactMe{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background: #0d1321;
 }
