@@ -245,10 +245,52 @@ main {
     text-decoration: underline;
 }
 
-.card-btn:hover{
+.card-btn:hover,.next-card-btn:hover{
     background-color: transparent;
     color: #ff8c00;
 }
+
+/* Next Target Style */
+.next-target {
+    padding: 50px;
+    background-color: #0d132105;
+    border-radius: 16px;
+    margin-bottom: 50px;
+}
+
+.next-target-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.next-target-card {
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    padding: 24px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: #ffffff;
+}
+
+.next-target-card-icon img {
+    margin-right: 36px;
+    width: 100px;
+    height: 100px;
+}
+
+.next-card-btn {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0d1321;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    text-decoration: underline;
+}
+
+
 
 /* Support Section */
 .support {
