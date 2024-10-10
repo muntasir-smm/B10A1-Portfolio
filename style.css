@@ -30,7 +30,7 @@
     border: 2px solid #0d1321;
     border-radius: 8px;
     
-    padding: 17px 24px 17px 24px;
+    padding: 17px 24px;
     color: #0d1321;
 
     font-family: 'Azeret Mono', monospace;
@@ -287,4 +287,62 @@ main{
     background-color: transparent;
     text-decoration: underline;
     color: rgb(13, 19, 33);
+}
+
+/* Support Style */
+
+.support {
+    border-radius: 16px;
+    background: linear-gradient(#00000080, #00000080), url("./images/handshake.jpg") no-repeat center center/cover;
+    padding: 50px;
+}
+
+
+.support-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.support-subtitle {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    padding: 24px;
+    margin: 24px;
+}
+
+.support-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.support-form input{
+    font-size: 20px;
+    padding: 17px 24px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 60%;
+    color: #0d132166;
+}
+
+input::placeholder{
+    opacity: 0.7;
+}
+
+
+
+.submit-btn{
+    color: #0d1321;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
 }
