@@ -129,9 +129,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 48px;
+    gap: 20px;
 }
 
 .reason-card-2{
     flex-direction: row-reverse;
     background: linear-gradient(-90.00deg, #ffffff, #ffffff00 100%);
+}
+
+.card-title{
+    color: #0d1321b3;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.card-details{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    text-align:justify;
+    margin: 16px 0px;
+}
+
+.learnMore{
+    border: 1px solid #0d1321;
+    border-radius: 0;
+    opacity: 0.7;
+    background-color: transparent;
+    margin-top: 16px;
 }
