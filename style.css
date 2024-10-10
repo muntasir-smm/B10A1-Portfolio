@@ -87,6 +87,11 @@
     background: #0d1321;
 }
 
+main{
+    margin: auto 50px;
+}
+
+
 /* Why Web Development Style */
 
 .why-webDev{
@@ -200,4 +205,86 @@
 }
 .insp-videos iframe {
     border-radius: 16px;
+}
+
+/* My Current Target Style */
+.current-target{
+    padding: 36px;
+}
+
+.target-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 36px;
+}
+
+.target-title{
+    color: #0d1321;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.target-details{
+    color: #0d1321;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 24px;
+}
+
+.target-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 36px;
+    padding: 24px;
+}
+
+.target-card-html {
+    background: #ff4c1e0d;
+}
+
+.target-card-css {
+    background-color: #004ce80d;
+}
+
+.target-card-js {
+    background-color: #ffdf000d;
+}
+
+.target-card {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: start;
+    border-radius: 16px;
+    gap: 24px;
+    padding: 24px;
+    flex: 1;
+    min-height: 300px;
+}
+
+.target-card img {
+    width: 56px;
+    height: 56px;
+}
+
+.card-title{
+    color: #0d1321;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-btn {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: start;
+    color: #0d1321;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    text-decoration: underline;
+    color: rgb(13, 19, 33);
 }
