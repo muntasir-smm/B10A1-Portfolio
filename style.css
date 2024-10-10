@@ -32,7 +32,7 @@
 }
 
 .btn:hover {
-    background-color: darkorange;
+    background-color: #ff8c00;
 }
 
 /* Hero Section */
@@ -242,6 +242,11 @@ main {
     padding: 10px;
     border: none;
     text-decoration: underline;
+}
+
+.card-btn:hover{
+    background-color: transparent;
+    color: #ff8c00;
 }
 
 /* Support Section */
