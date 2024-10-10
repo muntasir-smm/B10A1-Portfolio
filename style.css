@@ -86,3 +86,52 @@
     font-weight: 600;
     background: #0d1321;
 }
+
+/* Why Web Development Style */
+
+.why-webDev{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    margin: 50px 80px;
+    padding: 50px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.reason-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reason-title{
+    color: #0d1321;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.reason-subtitle{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.reason-card{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, #ffffff, #ffffff00 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reason-card-2{
+    flex-direction: row-reverse;
+    background: linear-gradient(-90.00deg, #ffffff, #ffffff00 100%);
+}
